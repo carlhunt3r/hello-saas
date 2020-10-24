@@ -24,6 +24,15 @@ async function run() {
     id: 'EAjjuyE',
   });
   
+  n.render({
+    element: document.querySelector('.kpi'),
+    id: 'dLnJpm',
+  });
+
+  n.render({
+    element: document.querySelector('.scatter'),
+    id: 'fqHXHax',
+  });
 
 }
 run();
