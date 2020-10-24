@@ -1,0 +1,21 @@
+{
+  "name": "hello-saas",
+  "version": "0.0.1",
+  "author": {
+    "name": "",
+    "email": ""
+  },
+  "keywords": [
+    "qlik",
+    "nebula"
+  ],
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "dependencies": {
+    "@nebula.js/stardust": "1.0.2-alpha.0",
+    "@nebula.js/sn-bar-chart": "^0.2.2",
+    "enigma.js": "^2.6.3",
+    "parcel-bundler": "^1.12.4"
+  }
+}
