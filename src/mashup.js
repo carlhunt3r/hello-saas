@@ -27,6 +27,8 @@ function login() {
       }
     });
   }
+
+
 login();
 
 
@@ -43,12 +45,15 @@ qlik.on( "error", function ( error ) {
 $( "#closePopup" ).click( function () {
   $( '#popup' ).hide();
 } );
+
   //open apps -- inserted here --
 var app = qlik.openApp( '755f2d02-0d4b-48c9-9b6f-e53255d6ecc7', config );
 
   //get objects -- inserted here --
 app.visualization.get('EAjjuyE').then(function(vis){
   vis.show("QV01");	
-  vis.show("QV06");	
 } );
+
+
+
 } );
